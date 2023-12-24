@@ -10,9 +10,9 @@ Minimal script to read xkcd comics (https://xkcd.com/).
 ## Usage:
 
 ```sh
-$(basename "${0}")                   # Get the latest xkcd comic from https://xkcd.com/
-$(basename "${0}") {n}               # Get a specific xkcd comic from https://xkcd.com/
-$(basename "${0}") [OPTIONS] {n}
+xkcd                             # Get the latest xkcd comic from https://xkcd.com/
+xkcd {n}                         # Get a specific xkcd comic from https://xkcd.com/
+xkcd [OPTIONS] {n}
 
 Options:
 	-r, --random                 # Get {n} number of random xkcd comic(s)
